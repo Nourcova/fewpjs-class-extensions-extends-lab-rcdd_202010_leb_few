@@ -1,4 +1,6 @@
 // Your code here
-class Polygon(){
-  
+class Polygon{
+  constructor(arr){
+    this.arr=arr;
+  }
 }
