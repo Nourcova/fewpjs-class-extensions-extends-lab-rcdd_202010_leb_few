@@ -5,6 +5,6 @@ class Polygon{
   }
   
   get countSides(){
-    return 
+    return  array.reduce((acc,cur,ind)=>ind+1,0)
   }
 }
