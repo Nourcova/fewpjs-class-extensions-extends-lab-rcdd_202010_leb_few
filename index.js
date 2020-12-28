@@ -12,7 +12,8 @@ class Polygon{
     return this.arr.reduce((acc,cur)=>acc+cur);
   }
   
-  class Triangle extends Polygon{
-    
-  }
 }
+
+class Triangle extends Polygon{
+  
+  }
