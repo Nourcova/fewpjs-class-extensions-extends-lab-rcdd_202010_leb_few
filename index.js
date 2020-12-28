@@ -11,4 +11,8 @@ class Polygon{
   get perimeter(){
     return this.arr.reduce((acc,cur)=>acc+cur);
   }
+  
+  class Triangle extends Polygon{
+    
+  }
 }
